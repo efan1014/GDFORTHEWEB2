@@ -1,0 +1,74 @@
+body {
+	background-color: yellow;
+	font-family: MingLiu;
+}
+
+table {
+    width: 100%;
+	word-wrap: break-word;
+	border-collapse: separate; 
+	border-spacing: 20px; 
+	font-family: MingLiu;
+	cursor: url(cursorclosed.png), auto;
+}
+
+td {
+	width: 500px;
+	padding: 20px;
+	padding-top: 5px;
+	border: 7px double red;
+	border-radius: 15px;
+	word-wrap: break-word;
+	font-family: MingLiu;
+}
+
+a {
+	color:red;
+	text-decoration: none;
+	font-family: MingLiu;
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: underline; 
+	cursor: url(cursoropen.png), pointer;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+td ol {
+	font-size: 15px;
+	font-family: MingLiu;
+}
+
+header {
+	font-family: ANDALE MONO;
+	font-size: 50px;
+	margin: auto;
+    width: 1280px; 
+    height: 120px;
+}
+
+.hoverdesc {
+    display: none;
+    color: red;
+}
+
+.noborder {
+	border: none;
+}
+
+.oneborder {
+	border: 1px solid red;
+}
+
+#grad {
+	background: radial-gradient(white, white, yellow);
+}
+

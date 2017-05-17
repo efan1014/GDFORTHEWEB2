@@ -1,0 +1,13 @@
+img {width:490px; height:380px;}
+
+[draggable=true] {
+cursor: move;
+}
+
+#drag{
+-webkit-user-drag: element;
+}
+
+.draggable{ 
+	z-index: 2;
+}

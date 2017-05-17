@@ -1,0 +1,14 @@
+body {
+	background-attachment: fixed;
+	background-attachment: scroll;
+}
+
+.header {
+	position: fixed;
+}
+
+.floatingstuff {
+	position: absolute;
+	border: 5px solid black
+}
+

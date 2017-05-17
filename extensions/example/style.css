@@ -1,0 +1,18 @@
+.hide {
+  opacity: 0;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
+  color: white;
+}
+
+.rotate {
+	transform: 
+}
+
+._4bl9 {https://68.media.tumblr.com/c1abeb07f4677f84e432e2f0183be1fa/tumblr_oha304kXD91ukp9i1o1_1280.jpg) no-repeat;
+  width: 180px; /* Width of new image */
+  height: 236px; /* Height of new image */
+  padding-left: 180px; /* Equal to width of new image */
+}

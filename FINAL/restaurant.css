@@ -1,0 +1,49 @@
+body {
+    font-family: MingLiU_HKSCS
+}
+
+.header {
+    position: fixed;
+    margin-top: 5px;
+}
+
+.item {
+    border: solid black;
+    width: 500px;
+    position: relative;
+}
+
+.menu {
+    border: solid yellow;
+    width: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hoverdesc {
+    padding: 20px;
+    display: none;
+    color: red;
+}
+    
+ol:hover + .hoverdesc {
+    display: block;
+}
+
+.menuitem {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+	width: 1000px;
+    cursor: pointer;
+}
